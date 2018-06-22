@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="EasyFrameWork" t="IncludeRecursive">
+        <e p="app.config" t="Include" />
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="Cache" t="Include">
+          <e p="StaticCache.cs" t="Include" />
+        </e>
+        <e p="Common.cs" t="Include" />
+        <e p="Constant" t="Include">
+          <e p="DataEnumerate.cs" t="Include" />
+          <e p="DicKeys.cs" t="Include" />
+          <e p="FormatStyle.cs" t="Include" />
+          <e p="RegularExpression.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="Condition.cs" t="Include" />
+          <e p="DataBase" t="Include">
+            <e p="Access.cs" t="Include" />
+            <e p="AccessAce.cs" t="Include" />
+            <e p="AccessJet.cs" t="Include" />
+            <e p="CustomerSqlHelper.cs" t="Include" />
+            <e p="DataBasic.cs" t="Include" />
+            <e p="ExcelReader.cs" t="Include" />
+            <e p="Sql.cs" t="Include" />
+            <e p="SqlEarly.cs" t="Include" />
+          </e>
+          <e p="DataFilter.cs" t="Include" />
+          <e p="Operation.cs" t="Include" />
+          <e p="Pagination.cs" t="Include" />
+          <e p="PrimaryKey.cs" t="Include" />
+          <e p="PropertyDataInfo.cs" t="Include" />
+          <e p="Relation.cs" t="Include" />
+          <e p="TableBuilderEngine.cs" t="Include" />
+          <e p="ValueProvider" t="Include">
+            <e p="CurrentDateProvider.cs" t="Include" />
+            <e p="GuidProvider.cs" t="Include" />
+            <e p="IPrimaryKeyProvider.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Easy.csproj" t="IncludeRecursive" />
+        <e p="Encryption.cs" t="Include" />
+        <e p="Extend" t="Include">
+          <e p="ExtDate.cs" t="Include" />
+          <e p="ExtIEnumerable.cs" t="Include" />
+          <e p="ExtInt.cs" t="Include" />
+          <e p="ExtList.cs" t="Include" />
+          <e p="Extlong.cs" t="Include" />
+          <e p="ExtObject.cs" t="Include" />
+          <e p="ExtRow.cs" t="Include" />
+          <e p="ExtString.cs" t="Include" />
+          <e p="ExtTable.cs" t="Include" />
+          <e p="ExtType.cs" t="Include" />
+        </e>
+        <e p="IApplicationContext.cs" t="Include" />
+        <e p="Image" t="Include">
+          <e p="ImageUnity.cs" t="Include" />
+        </e>
+        <e p="IOC" t="Include">
+          <e p="Autofac" t="Include">
+            <e p="AutofacContainerAdapter.cs" t="Include" />
+            <e p="AutofacRegister.cs" t="Include" />
+            <e p="AutofacServiceLocator.cs" t="Include" />
+            <e p="ILifetimeScopeProvider.cs" t="Include" />
+          </e>
+          <e p="DependencyLifeTime.cs" t="Include" />
+          <e p="IAdapter.cs" t="Include" />
+          <e p="IContainerAdapter.cs" t="Include" />
+          <e p="IModule.cs" t="Include" />
+          <e p="Unity" t="Include">
+            <e p="IHttpItemsValueProvider.cs" t="Include" />
+            <e p="PerRequestLifetimeManager.cs" t="Include" />
+            <e p="UnityContainerAdapter.cs" t="Include" />
+            <e p="UnityRegister.cs" t="Include" />
+            <e p="UnityServiceLocator.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Localization.cs" t="Include" />
+        <e p="Logger.cs" t="Include" />
+        <e p="MathEx" t="Include">
+          <e p="Formula.cs" t="Include" />
+        </e>
+        <e p="MetaData" t="Include">
+          <e p="DataConfigureAttribute.cs" t="Include" />
+          <e p="DataViewMetaData.cs" t="Include" />
+          <e p="IDataViewMetaData.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="AutoComplete.cs" t="Include" />
+          <e p="EditorEntity.cs" t="Include" />
+          <e p="HumanBase.cs" t="Include" />
+          <e p="IImage.cs" t="Include" />
+          <e p="IUser.cs" t="Include" />
+        </e>
+        <e p="Modules" t="Include">
+          <e p="DataDictionary" t="Include">
+            <e p="DataDictionaryEntity.cs" t="Include" />
+            <e p="DataDictionaryRepository.cs" t="Include" />
+            <e p="DataDictionaryService.cs" t="Include" />
+            <e p="IDataDictionaryService.cs" t="Include" />
+          </e>
+          <e p="MutiLanguage" t="Include">
+            <e p="ILanguageService.cs" t="Include" />
+            <e p="LanguageEntity.cs" t="Include" />
+            <e p="LanguageRepository.cs" t="Include" />
+            <e p="LanguageService.cs" t="Include" />
+          </e>
+          <e p="Role" t="Include">
+            <e p="IPermissionService.cs" t="Include" />
+            <e p="IRoleService.cs" t="Include" />
+            <e p="IUserRoleRelationService.cs" t="Include" />
+            <e p="Permission.cs" t="Include" />
+            <e p="PermissionService.cs" t="Include" />
+            <e p="RoleEntity.cs" t="Include" />
+            <e p="RoleService.cs" t="Include" />
+            <e p="UserRoleRelation.cs" t="Include" />
+            <e p="UserRoleRelationService.cs" t="Include" />
+          </e>
+          <e p="SystemSetting" t="Include">
+            <e p="SystemSettingBase.cs" t="Include" />
+            <e p="SystemSettingRepository.cs" t="Include" />
+            <e p="SystemSettingService.cs" t="Include" />
+          </e>
+          <e p="User" t="Include">
+            <e p="Models" t="Include">
+              <e p="UserEntity.cs" t="Include" />
+            </e>
+            <e p="Service" t="Include">
+              <e p="Impl" t="Include">
+                <e p="UserService.cs" t="Include" />
+              </e>
+              <e p="IUserService.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Net" t="Include">
+          <e p="Email" t="Include">
+            <e p="EmailContentBase.cs" t="Include" />
+            <e p="EmailSender.cs" t="Include" />
+            <e p="IEmailContent.cs" t="Include" />
+          </e>
+          <e p="Ftp.cs" t="Include" />
+          <e p="WebClient.cs" t="Include" />
+          <e p="WebPage.cs" t="Include" />
+        </e>
+        <e p="newsign.pfx" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Reflection" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="ClassAction.cs" t="Include" />
+          <e p="LinqExpression.cs" t="Include" />
+        </e>
+        <e p="RepositoryPattern" t="Include">
+          <e p="IRepository.cs" t="Include" />
+          <e p="IService.cs" t="Include" />
+          <e p="RepositoryBase.cs" t="Include" />
+          <e p="ServiceBase.cs" t="Include" />
+        </e>
+        <e p="RSS" t="Include">
+          <e p="RssEntity.cs" t="Include" />
+          <e p="RssService.cs" t="Include" />
+        </e>
+        <e p="Security" t="Include">
+          <e p="DefaultAuthorizer.cs" t="Include" />
+          <e p="IAuthorizer.cs" t="Include" />
+        </e>
+        <e p="sign.pfx" t="Include" />
+        <e p="StartTask" t="Include">
+          <e p="IStartTask.cs" t="Include" />
+          <e p="TaskManager.cs" t="Include" />
+        </e>
+        <e p="Storage" t="Include">
+          <e p="IStorageService.cs" t="Include" />
+        </e>
+        <e p="SystemSetting.cs" t="Include" />
+        <e p="ViewPort" t="Include">
+          <e p="Descriptor" t="Include">
+            <e p="BaseDescriptor.cs" t="Include" />
+            <e p="CheckBoxDescriptor.cs" t="Include" />
+            <e p="DropDownListDescriptor.cs" t="Include" />
+            <e p="FileDescriptor.cs" t="Include" />
+            <e p="HiddenDescriptor.cs" t="Include" />
+            <e p="ListEditorDescriptor.cs" t="Include" />
+            <e p="MutiSelectDescriptor.cs" t="Include" />
+            <e p="PassWordDescriptor.cs" t="Include" />
+            <e p="TextAreaDescriptor.cs" t="Include" />
+            <e p="TextBoxDescriptor.cs" t="Include" />
+          </e>
+          <e p="Grid" t="Include">
+            <e p="EasyGrid.cs" t="Include" />
+            <e p="GridData.cs" t="Include" />
+            <e p="GridSetting.cs" t="Include" />
+          </e>
+          <e p="HTMLEnumerate.cs" t="Include" />
+          <e p="jsTree" t="Include">
+            <e p="ContextmenuItem.cs" t="Include" />
+            <e p="Node.cs" t="Include" />
+            <e p="Setting.cs" t="Include" />
+            <e p="Tree.cs" t="Include" />
+          </e>
+          <e p="TagsHelper.cs" t="Include" />
+          <e p="Validator" t="Include">
+            <e p="RangeValidator.cs" t="Include" />
+            <e p="RegularValidator.cs" t="Include" />
+            <e p="RemoteValidator.cs" t="Include" />
+            <e p="RequiredValidator.cs" t="Include" />
+            <e p="StringLengthValidator.cs" t="Include" />
+            <e p="ValidatorBase.cs" t="Include" />
+          </e>
+        </e>
+        <e p="WinApi" t="Include">
+          <e p="OpenApi.cs" t="Include" />
+        </e>
+      </e>
+      <e p="EasyFrameWork.sln" t="IncludeFlat" />
+      <e p="EasyFrameWork.Web" t="IncludeRecursive">
+        <e p="ActionInvoker" t="Include">
+          <e p="FiltersAsyncControllerActionInvoker.cs" t="Include" />
+          <e p="FiltersControllerActionInvoker.cs" t="Include" />
+        </e>
+        <e p="AjaxState.cs" t="Include" />
+        <e p="app.config" t="Include" />
+        <e p="Application" t="Include">
+          <e p="AutofacMvcApplication.cs" t="Include" />
+          <e p="HttpItemsValueProvider.cs" t="Include" />
+          <e p="RequestLifetimeScopeProvider.cs" t="Include" />
+          <e p="TaskApplication.cs" t="Include" />
+          <e p="UnityMvcApplication.cs" t="Include" />
+        </e>
+        <e p="ApplicationContext.cs" t="Include" />
+        <e p="Attribute" t="Include">
+          <e p="AdminThemeAttribute.cs" t="Include" />
+          <e p="HandleErrorToLogAttribute.cs" t="Include" />
+          <e p="OnceSubmitAttribute.cs" t="Include" />
+          <e p="PopUpAttribute.cs" t="Include" />
+          <e p="ViewDataAttribute.cs" t="Include" />
+        </e>
+        <e p="Authorize" t="Include">
+          <e p="DefaultAuthorizeAttribute.cs" t="Include" />
+        </e>
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="Cache" t="Include">
+          <e p="MemoryCache.cs" t="Include" />
+        </e>
+        <e p="Common.cs" t="Include" />
+        <e p="Controller" t="Include">
+          <e p="BasicController.cs" t="Include" />
+        </e>
+        <e p="ControllerActivator" t="Include">
+          <e p="EasyControllerActivator.cs" t="Include" />
+        </e>
+        <e p="ControllerFactory" t="Include">
+          <e p="FilterControllerFactory.cs" t="Include" />
+        </e>
+        <e p="DependencyResolver" t="Include">
+          <e p="EasyDependencyResolver.cs" t="Include" />
+        </e>
+        <e p="DisplayViewSupport.cs" t="Include" />
+        <e p="Easy.Web.csproj" t="IncludeRecursive" />
+        <e p="Extend" t="Include">
+          <e p="ExHtmlHelper.cs" t="Include" />
+          <e p="ExHttpContext.cs" t="Include" />
+          <e p="ExHttpRequest.cs" t="Include" />
+          <e p="ExMvcForm.cs" t="Include" />
+        </e>
+        <e p="Filter" t="Include">
+          <e p="ConfigureFilterBase.cs" t="Include" />
+          <e p="FilterRegister.cs" t="Include" />
+          <e p="FilterRegisterItem.cs" t="Include" />
+          <e p="IConfigureFilter.cs" t="Include" />
+          <e p="IFilterRegister.cs" t="Include" />
+        </e>
+        <e p="HTML" t="Include">
+          <e p="Grid.cs" t="Include" />
+          <e p="Tree.cs" t="Include" />
+        </e>
+        <e p="HttpActionResult" t="Include">
+          <e p="HttpForbiddenResult.cs" t="Include" />
+        </e>
+        <e p="MetaData" t="Include">
+          <e p="EasyModelMetaData.cs" t="Include" />
+        </e>
+        <e p="MetadataProvider" t="Include">
+          <e p="EasyModelMetaDataProvider.cs" t="Include" />
+        </e>
+        <e p="ModelBinder" t="Include">
+          <e p="EasyBinder.cs" t="Include" />
+        </e>
+        <e p="ModelBinderProvider" t="Include">
+          <e p="EasyBinderProvider.cs" t="Include" />
+        </e>
+        <e p="newsign.pfx" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Page" t="Include">
+          <e p="HtmlStringWriter.cs" t="Include" />
+          <e p="ViewPage.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RazorEngineTemplate" t="Include">
+          <e p="CombileFailException.cs" t="Include" />
+          <e p="Combiler.cs" t="Include" />
+          <e p="RazorTemplateBase.cs" t="Include" />
+        </e>
+        <e p="Resource" t="Include">
+          <e p="Enums.cs" t="Include" />
+          <e p="ResourceCollection.cs" t="Include" />
+          <e p="ResourceEntity.cs" t="Include" />
+          <e p="ResourceHelper.cs" t="Include" />
+          <e p="ResourceManager.cs" t="Include" />
+          <e p="ResourceRegister.cs" t="Include" />
+        </e>
+        <e p="Route" t="Include">
+          <e p="IRouteRegister.cs" t="Include" />
+          <e p="RouteConstraint.cs" t="Include" />
+          <e p="RouteDescriptor.cs" t="Include" />
+        </e>
+        <e p="sign.pfx" t="Include" />
+        <e p="Validator" t="Include">
+          <e p="ModelValidatorBase.cs" t="Include" />
+          <e p="RangeModelValidator.cs" t="Include" />
+          <e p="RegularModelValidator.cs" t="Include" />
+          <e p="RemoteModelValidator.cs" t="Include" />
+          <e p="RequiredModelValidator.cs" t="Include" />
+          <e p="StringLengthModelValidator.cs" t="Include" />
+        </e>
+        <e p="ValidatorProvider" t="Include">
+          <e p="EasyModelValidatorProvider.cs" t="Include" />
+        </e>
+        <e p="ValueProvider" t="Include">
+          <e p="Cookie.cs" t="Include" />
+          <e p="ICookie.cs" t="Include" />
+        </e>
+        <e p="ViewEngine" t="Include">
+          <e p="PrecompiledPageActivator.cs" t="Include" />
+          <e p="PrecompiledView.cs" t="Include" />
+          <e p="PrecompliedViewEngine.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MvcApplication" t="IncludeRecursive">
+        <e p="App_Data" t="Include">
+          <e p="Database.mdb" t="Include" />
+        </e>
+        <e p="App_Start" t="Include">
+          <e p="AuthConfig.cs" t="Include" />
+          <e p="FilterConfig.cs" t="Include" />
+          <e p="RouteConfig.cs" t="Include" />
+        </e>
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="ConfigureFilters.cs" t="Include" />
+        <e p="Content" t="Include">
+          <e p="Site.css" t="Include" />
+          <e p="themes" t="Include">
+            <e p="base" t="Include">
+              <e p="accordion.css" t="Include" />
+              <e p="all.css" t="Include" />
+              <e p="autocomplete.css" t="Include" />
+              <e p="base.css" t="Include" />
+              <e p="button.css" t="Include" />
+              <e p="core.css" t="Include" />
+              <e p="datepicker.css" t="Include" />
+              <e p="dialog.css" t="Include" />
+              <e p="draggable.css" t="Include" />
+              <e p="images" t="Include">
+                <e p="ui-bg_flat_0_aaaaaa_40x100.png" t="Include" />
+                <e p="ui-bg_flat_75_ffffff_40x100.png" t="Include" />
+                <e p="ui-bg_glass_55_fbf9ee_1x400.png" t="Include" />
+                <e p="ui-bg_glass_65_ffffff_1x400.png" t="Include" />
+                <e p="ui-bg_glass_75_dadada_1x400.png" t="Include" />
+                <e p="ui-bg_glass_75_e6e6e6_1x400.png" t="Include" />
+                <e p="ui-bg_glass_95_fef1ec_1x400.png" t="Include" />
+                <e p="ui-bg_highlight-soft_75_cccccc_1x100.png" t="Include" />
+                <e p="ui-icons_222222_256x240.png" t="Include" />
+                <e p="ui-icons_2e83ff_256x240.png" t="Include" />
+                <e p="ui-icons_444444_256x240.png" t="Include" />
+                <e p="ui-icons_454545_256x240.png" t="Include" />
+                <e p="ui-icons_555555_256x240.png" t="Include" />
+                <e p="ui-icons_777620_256x240.png" t="Include" />
+                <e p="ui-icons_777777_256x240.png" t="Include" />
+                <e p="ui-icons_888888_256x240.png" t="Include" />
+                <e p="ui-icons_cc0000_256x240.png" t="Include" />
+                <e p="ui-icons_cd0a0a_256x240.png" t="Include" />
+                <e p="ui-icons_ffffff_256x240.png" t="Include" />
+              </e>
+              <e p="jquery-ui.css" t="Include" />
+              <e p="jquery-ui.min.css" t="Include" />
+              <e p="menu.css" t="Include" />
+              <e p="progressbar.css" t="Include" />
+              <e p="resizable.css" t="Include" />
+              <e p="selectable.css" t="Include" />
+              <e p="selectmenu.css" t="Include" />
+              <e p="slider.css" t="Include" />
+              <e p="sortable.css" t="Include" />
+              <e p="spinner.css" t="Include" />
+              <e p="tabs.css" t="Include" />
+              <e p="theme.css" t="Include" />
+              <e p="tooltip.css" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="EasyPlug" t="Include">
+          <e p="Css" t="Include">
+            <e p="Animate.css" t="Include" />
+            <e p="base.css" t="Include" />
+            <e p="Easy.css" t="Include" />
+            <e p="Easy.Grid.css" t="Include" />
+            <e p="Easy.Tab.css" t="Include" />
+            <e p="Easy.UI.css" t="Include" />
+            <e p="Icon.css" t="Include" />
+            <e p="images" t="Include">
+              <e p="add.png" t="Include" />
+              <e p="bgPoint.png" t="Include" />
+              <e p="buttons.png" t="Include" />
+              <e p="checkbox.png" t="Include" />
+              <e p="checkboxNo.png" t="Include" />
+              <e p="close.gif" t="Include" />
+              <e p="close.png" t="Include" />
+              <e p="errorLayer_Bottom.gif" t="Include" />
+              <e p="errorLayer_Cen.gif" t="Include" />
+              <e p="errorLayer_Top.gif" t="Include" />
+              <e p="Grid" t="Include">
+                <e p="ajax-loader.gif" t="Include" />
+                <e p="bg.png" t="Include" />
+                <e p="remove.png" t="Include" />
+                <e p="triangle.png" t="Include" />
+                <e p="triangle2.png" t="Include" />
+              </e>
+              <e p="Icons" t="Include">
+                <e p="add.png" t="Include" />
+                <e p="attachment.png" t="Include" />
+                <e p="audio.png" t="Include" />
+                <e p="autocomplete.png" t="Include" />
+                <e p="calendar.png" t="Include" />
+                <e p="checkbox_no.png" t="Include" />
+                <e p="checkbox_yes.png" t="Include" />
+                <e p="conversation.png" t="Include" />
+                <e p="copy.png" t="Include" />
+                <e p="cut.png" t="Include" />
+                <e p="date.png" t="Include" />
+                <e p="delete.png" t="Include" />
+                <e p="diagram.png" t="Include" />
+                <e p="dragger.png" t="Include" />
+                <e p="Email.png" t="Include" />
+                <e p="filter.png" t="Include" />
+                <e p="graph.png" t="Include" />
+                <e p="information.png" t="Include" />
+                <e p="list.png" t="Include" />
+                <e p="log.png" t="Include" />
+                <e p="mail.png" t="Include" />
+                <e p="message.png" t="Include" />
+                <e p="minus.png" t="Include" />
+                <e p="net.png" t="Include" />
+                <e p="new.png" t="Include" />
+                <e p="no_sound.png" t="Include" />
+                <e p="number.png" t="Include" />
+                <e p="open.png" t="Include" />
+                <e p="paste.png" t="Include" />
+                <e p="photo.png" t="Include" />
+                <e p="picture(1).png" t="Include" />
+                <e p="picture.png" t="Include" />
+                <e p="plus.png" t="Include" />
+                <e p="pointer.png" t="Include" />
+                <e p="print.png" t="Include" />
+                <e p="profile.png" t="Include" />
+                <e p="radiobutton_no.png" t="Include" />
+                <e p="radiobutton_yes.png" t="Include" />
+                <e p="redo.png" t="Include" />
+                <e p="remove.png" t="Include" />
+                <e p="save.png" t="Include" />
+                <e p="save_as.png" t="Include" />
+                <e p="search.png" t="Include" />
+                <e p="settings.png" t="Include" />
+                <e p="sound.png" t="Include" />
+                <e p="star_empty.png" t="Include" />
+                <e p="star_full.png" t="Include" />
+                <e p="table.png" t="Include" />
+                <e p="tiles.png" t="Include" />
+                <e p="undo.png" t="Include" />
+                <e p="user.png" t="Include" />
+                <e p="video.png" t="Include" />
+                <e p="wireless.png" t="Include" />
+                <e p="women.png" t="Include" />
+                <e p="zoom_in.png" t="Include" />
+                <e p="zoom_out.png" t="Include" />
+              </e>
+              <e p="Info.png" t="Include" />
+              <e p="left1.png" t="Include" />
+              <e p="lightbox-btn-close.gif" t="Include" />
+              <e p="lightbox-loader.gif" t="Include" />
+              <e p="loader.gif" t="Include" />
+              <e p="main_left_bottom2.gif" t="Include" />
+              <e p="main_left_bottom2.png" t="Include" />
+              <e p="main_right_bottom2.gif" t="Include" />
+              <e p="main_right_bottom2.png" t="Include" />
+              <e p="radiobutton_no.png" t="Include" />
+              <e p="tool_bg.gif" t="Include" />
+              <e p="top1.png" t="Include" />
+              <e p="top_left2.gif" t="Include" />
+              <e p="top_left2.png" t="Include" />
+              <e p="top_right2.gif" t="Include" />
+              <e p="top_right2.png" t="Include" />
+              <e p="triangle.png" t="Include" />
+              <e p="triangle2.png" t="Include" />
+              <e p="undo.png" t="Include" />
+            </e>
+          </e>
+          <e p="Easy.FocusImage.js" t="Include" />
+          <e p="Easy.Grid.js" t="Include" />
+          <e p="Easy.js" t="Include" />
+          <e p="Easy.Tab.js" t="Include" />
+          <e p="Easy.UI.js" t="Include" />
+          <e p="jquery.js" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="Filters" t="Include" />
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="images" t="Include">
+          <e p="accent.png" t="Include" />
+          <e p="bullet.png" t="Include" />
+          <e p="heroAccent.png" t="Include" />
+          <e p="orderedList0.png" t="Include" />
+          <e p="orderedList1.png" t="Include" />
+          <e p="orderedList2.png" t="Include" />
+          <e p="orderedList3.png" t="Include" />
+          <e p="orderedList4.png" t="Include" />
+          <e p="orderedList5.png" t="Include" />
+          <e p="orderedList6.png" t="Include" />
+          <e p="orderedList7.png" t="Include" />
+          <e p="orderedList8.png" t="Include" />
+          <e p="orderedList9.png" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Example.cs" t="Include" />
+          <e p="ExampleItem.cs" t="Include" />
+        </e>
+        <e p="MvcApplication.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Repository" t="Include">
+          <e p="ExampleRepository.cs" t="Include" />
+          <e p="IExampleRepository.cs" t="Include" />
+        </e>
+        <e p="ResourceManager.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="_references.js" t="Include" />
+          <e p="jquery-1.12.4.intellisense.js" t="Include" />
+          <e p="jquery-1.12.4.js" t="Include" />
+          <e p="jquery-1.12.4.min.js" t="Include" />
+          <e p="jquery-1.12.4.min.map" t="Include" />
+          <e p="jquery-ui-1.12.1.js" t="Include" />
+          <e p="jquery-ui-1.12.1.min.js" t="Include" />
+          <e p="jquery.unobtrusive-ajax.js" t="Include" />
+          <e p="jquery.unobtrusive-ajax.min.js" t="Include" />
+          <e p="jquery.validate-vsdoc.js" t="Include" />
+          <e p="jquery.validate.js" t="Include" />
+          <e p="jquery.validate.min.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+        </e>
+        <e p="Service" t="Include">
+          <e p="ExampleItemService.cs" t="Include" />
+          <e p="ExampleService.cs" t="Include" />
+          <e p="IExampleItemService.cs" t="Include" />
+          <e p="IExampleService.cs" t="Include" />
+        </e>
+        <e p="Tasks" t="Include">
+          <e p="ConfigTask.cs" t="Include" />
+          <e p="ResourceTask.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="About.cshtml" t="Include" />
+            <e p="Contact.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_LoginPartial.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="UnitTest" t="IncludeRecursive">
+        <e p="app.config" t="Include" />
+        <e p="App_Data" t="Include">
+          <e p="Database.accdb" t="Include" />
+        </e>
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Example.cs" t="Include" />
+          <e p="ExampleItem.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Repository" t="Include">
+          <e p="ExampleRepository.cs" t="Include" />
+          <e p="IExampleRepository.cs" t="Include" />
+        </e>
+        <e p="Service" t="Include">
+          <e p="ExampleItemService.cs" t="Include" />
+          <e p="ExampleService.cs" t="Include" />
+          <e p="IExampleItemService.cs" t="Include" />
+          <e p="IExampleService.cs" t="Include" />
+        </e>
+        <e p="UnitTest.csproj" t="IncludeRecursive" />
+        <e p="UnitTest1.cs" t="Include" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_EasyFrameWork.-2035861157.00" t="ExcludeRecursive" />
+  </component>
+</project>
